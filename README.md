@@ -26,5 +26,6 @@ The **Investment Calculator** app allows users to calculate and project the grow
 - Angular Signals
 
 
-![Investment-Calculator-image](https://github.com/user-attachments/assets/a2336bc4-3d15-45ec-b765-f0f9e0742b54)
+![Investment-Calculator-image](https://github.com/user-attachments/assets/bd33a2bc-af18-4615-be44-e7f66cbce1e4)
+
 
