@@ -22,4 +22,5 @@ The **Investment Calculator** app allows users to calculate and project the grow
 
 ## Technologies Used
 
--Angular
+- Angular
+- Angular Signals
