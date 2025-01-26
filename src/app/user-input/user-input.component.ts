@@ -12,7 +12,7 @@ import { type CalculateData } from '../investment-results/investment-results.mod
   styleUrl: './user-input.component.css',
 })
 export class UserInputComponent {
-  calculateData = inject(InvestmentResultsService).calculateData;
+  calculateData = inject(InvestmentResultsService);
   data = signal<CalculateData>({
     initialInvestment: 0,
     annualInvestment: 0,
@@ -21,7 +21,7 @@ export class UserInputComponent {
   });
 
   onSubmit() {
-    this.calculateData(this.data());
+    this.calculateData.calculateData(this.data());
     this.resetForm();
   }
 

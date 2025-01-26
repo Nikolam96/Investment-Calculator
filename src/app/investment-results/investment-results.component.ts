@@ -10,5 +10,6 @@ import { CurrencyPipe } from '@angular/common';
   styleUrl: './investment-results.component.css',
 })
 export class InvestmentResultsComponent {
-  data = inject(InvestmentResultsService).getData;
+  investmentResult = inject(InvestmentResultsService);
+  data = this.investmentResult.getData;
 }
